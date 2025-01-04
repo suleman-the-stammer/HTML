@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+      header{
+        background-color: black;
+        color: white;
+        height: 300px;
+      }
+   
+      li{
+        font-size: 4vh;
+        display: inline-block;
+        padding: 10px 20px;
+        
+        
+      }
+      .container{
+        display: flex;  
+        background-color: lightcoral;
+        height: 80vh;
+      justify-content: space-between;
+       
+      }
+      .box1{
+        background-color: red;
+        height: 50vh;
+        width: 50vh;
+        
+     
+        
+      }
+      .box2{
+        background-color: rgb(1, 48, 150);
+        height: 50vh;
+        width: 50vh;
+    
+    
+        
+        
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images.png" alt="this is image"></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>News</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box1"> </div>
+        <div class="box2"></div> 
+        
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   
+    .containter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+        height: 100vh;
+    }
+    .box{
+        background-color: lightgreen;
+        border: 4px solid blue;
+        border-radius: 144px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: stammer;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+       
+    }
+    @keyframes stammer {
+        from{
+            width: 300px ;
+        }
+        to{
+            width: 500px
+        }
+        
+    }
+</style>
+<body>
+    <div class="containter">
+        <div class="box"> <B>Stammer Never GIve UP</B></div>
+    </div>
+</body>
+</html>
